@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.cart_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.cart_details_table {
+  flex: 70%;
+  height: 100%;
+  padding: 30px;
+}
+
+#cartTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#cartTable thead tr {
+  width: 100%;
+}
+#cartTable thead tr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(29, 29, 29);
+  text-align: center;
+  text-transform: uppercase;
+}
+#cartTable tbody tr td {
+  font-size: 16px;
+  color: rgb(29, 29, 29);
+  text-align: center;
+  padding: 20px;
+}
+#cartTable td,
+#cartTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#cartTable tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+#cartTable tr:hover {
+  background-color: #ddd;
+}
+td form input {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #1f1f50;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+#cartTable th {
+  padding: 40px;
+  color: red;
+}
+
+/* @media (max-width: 768px) {
+} */
+
+.cart_order_table {
+  flex: 30%;
+  height: 100%;
+  padding: 20px;
+}
+.cart_coupon {
+  width: 100%;
+}
+.cart_coupon h3 {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.cart_coupon p {
+  margin-top: 18px;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.cart_coupon input {
+  margin-top: 15px;
+  width: 70%;
+  padding: 10px;
+  border-bottom: 1px solid #4e4e4e;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+.cart_coupon button {
+  width: 27%;
+  padding: 11px;
+  border-bottom: 1px solid rgb(8, 5, 44);
+  background-color: rgb(8, 5, 44);
+  color: #fff;
+  outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+  -webkit-appearance: inner-spin-button !important;
+  width: 25px;
+  padding-left: 2px;
+  padding-right: 2px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.orderTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+.orderTable thead tr {
+  width: 100%;
+}
+.orderTable thead tr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(29, 29, 29);
+  text-align: center;
+  text-transform: uppercase;
+}
+.orderTable tbody tr td {
+  font-size: 16px;
+  color: rgb(29, 29, 29);
+  text-align: center;
+  padding: 20px;
+}
+.orderTable td,
+.orderTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.orderTable tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.orderTable tr:hover {
+  background-color: #ddd;
+}
+.cart_total h3 {
+  margin-left: -10px;
+  margin-top: 5px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.cart_total p {
+  margin-top: 18px;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.buttonChecout {
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(204, 204, 204, 0.603);
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+}
+.buttonChecout a {
+  text-decoration: none;
+  color: black;
+}

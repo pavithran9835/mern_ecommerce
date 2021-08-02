@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.userComponent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6f8;
+  overflow: hidden;
+}
+.userCreateComponent {
+  width: 90%;
+  height: auto;
+  margin: 75px 0px 0px 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 4px 2px rgba(238, 238, 238, 0.7);
+}
+.formComponent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.formComponent input {
+  width: 90%;
+  padding: 15px;
+  border: none;
+  border-bottom: 2px solid #1f1f50;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.formComponent select {
+  width: 90%;
+  padding: 13px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #1f1f50;
+  /* border: 1px solid #1f1f50; */
+  /* border-radius: 5px; */
+  margin-top: 12px;
+}
+.formComponent button {
+  width: 30%;
+  padding: 13px;
+  border: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  background: #1f1f50;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formComponent input::placeholder {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+}
+.userListComponent {
+  width: 90%;
+  height: auto;
+  margin: 55px 0px 0px 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 4px 2px rgba(238, 238, 238, 0.7);
+  overflow: hidden;
+}
+
+#useData {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#useData thead tr {
+  width: 100%;
+}
+#useData thead tr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(82, 82, 82);
+  text-align: center;
+  text-transform: uppercase;
+}
+#useData tbody tr td {
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+}
+#useData td,
+#useData th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#useData tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+#useData tr:hover {
+  background-color: #ddd;
+}
+
+.checkbox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.checkbox input {
+  margin-left: 30px;
+  width: 15px;
+  height: 15px;
+  border: none;
+  /* border: 1px solid blue; */
+  border-radius: 50%;
+}
+.checkbox label {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .userComponent {
+    height: auto;
+  }
+  .formComponent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  .formComponent input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .formComponent button {
+    width: 50%;
+  }
+  .userCreateComponent {
+    flex-direction: column;
+  }
+  .formComponent input {
+    width: 85%;
+  }
+  .formComponent select {
+    width: 85%;
+  }
+}

@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.productContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.formContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.formContainer form {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(77, 51, 128, 0.7);
+  padding: 20px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.formContainer form input {
+  width: 95%;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #1f1f50;
+  outline: none;
+  /* border-radius: 5px; */
+  margin-top: 8px;
+}
+.form-group {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-group-text {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-group-left {
+  flex: 40%;
+}
+.form-group-right {
+  flex: 40%;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid rgb(139, 139, 139);
+  outline: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.formContainer form button {
+  width: 40%;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  background: #1f1f50;
+  cursor: pointer;
+}
+#colorInput {
+  padding: 23px !important;
+  background-color: rgb(255, 255, 255);
+}
+label {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: rgb(73, 73, 73);
+}
+.form-group {
+  margin: 10px;
+}
+
+.productGetContainer {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 10px 30px rgba(77, 51, 128, 0.7);
+  padding: 20px;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+#categorys {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#productsTable td,
+#productsTable th {
+  padding: 12px;
+}
+
+#productsTable tr:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+#productsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2f2f70;
+  color: white;
+}
+select {
+  width: 95%;
+  padding: 13px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #1f1f50;
+  /* border: 1px solid #1f1f50; */
+  /* border-radius: 5px; */
+  margin-top: 8px;
+}
+.previewContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.previewImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: cover;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .formContainer form {
+    width: 90%;
+    margin-left: 50px;
+  }
+  .admin_navbar {
+    padding: 15px;
+  }
+  .form-group {
+    width: 100%;
+    flex-direction: column;
+  }
+  .form-group-left {
+    width: 100%;
+    flex: 100;
+  }
+  .form-group-right {
+    width: 100%;
+    flex: 100;
+  }
+  .formContainer form input {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .formContainer {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 968px) {
+  .formContainer form {
+    width: 85%;
+  }
+}

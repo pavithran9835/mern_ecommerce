@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.productDetailsContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  color: rgb(56, 56, 56);
+}
+.productInfoContainer {
+  width: 100%;
+  height: 100%;
+  flex: 60%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.productInfoContainer .productTitle,
+.productPrice {
+  font-size: 25px;
+  font-weight: 100;
+}
+.productReviewContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.productId {
+  margin-top: 10px;
+}
+.reviewPara {
+  margin-left: 7px;
+  margin-top: 6px;
+}
+.price {
+  display: flex;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 100;
+}
+.price i {
+  font-size: 18px;
+  margin-right: 3px;
+}
+.productdetailsprice {
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: line-through;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+.description {
+  margin-top: 15px;
+}
+.description p {
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5rem;
+}
+.productReviewContainer .productStar i {
+  color: rgb(209, 49, 0);
+  margin-left: 4px;
+}
+.color {
+  margin-top: 15px;
+  display: flex;
+}
+.color p {
+  margin-top: 5px;
+}
+.colorBox {
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border: 5px solid rgb(248, 251, 255);
+  border-radius: 50%;
+}
+.quantity {
+  margin-top: 15px;
+  display: flex;
+}
+.quantity p {
+  margin-top: 10px;
+}
+.quantity input {
+  margin-left: 15px;
+  padding: 9px;
+}
+.quantity button {
+  padding: 11px;
+  width: 150px;
+  margin-left: 15px;
+  border-radius: 3px;
+  background-color: rgba(28, 18, 156, 0.76);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.quantity button:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgba(28, 18, 156, 0.76);
+  color: black;
+  font-family: "Roboto", sans-serif;
+  padding: 9px;
+}
+.category {
+  margin-top: 20px;
+  display: flex;
+}
+.answerDetail {
+  margin-left: 15px;
+}
+.category i {
+  font-size: 20px;
+}
+.whishlistTrue {
+  color: rgb(255, 58, 58);
+}
+.socialmedia {
+  margin-top: 15px;
+}
+.socialmedia i {
+  color: white;
+  font-size: 22px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 8px;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+.productImageContainer {
+  width: 100%;
+  height: 100%;
+  flex: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  width: 400px;
+  height: 450px;
+}
+.modalContainer {
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+.topModalContainer {
+  flex: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downModalContainer {
+  flex: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.downModalContainer button {
+  margin: 10px;
+  width: 100px;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(28, 18, 156, 0.76);
+  color: #fff;
+  outline: none;
+}
+.ratingButton {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  background-color: rgba(28, 18, 156, 0.76);
+  padding: 5px;
+  width: 180px;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.relatedProductContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.related {
+  text-align: center;
+  margin-top: 20px;
+}
+.tooltip {
+  padding: 0px;
+}
+.productdetailspriceOffer {
+  margin-top: -3px;
+}
+@media (max-width: 768px) {
+  .productDetailsContainer {
+    height: auto;
+    flex-direction: column;
+  }
+  .productImageContainer {
+    flex: 100%;
+  }
+  .productInfoContainer {
+    flex: 100%;
+  }
+  .productInfoContainer .productTitle {
+    margin-top: 100px;
+  }
+}

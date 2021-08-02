@@ -1,0 +1,13 @@
+.homeCategoryResult {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.serchCount {
+  font-size: 18px;
+  margin: 30px;
+  font-family: "Roboto", sans-serif;
+}

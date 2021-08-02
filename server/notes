@@ -1,0 +1,578 @@
+    // A sample JSON response body that is parsed by the above code:
+
+    // {
+    //   "product": {
+    //     "id": 1071559755,
+    //     "title": "Burton Custom Freestyle 151",
+    //     "body_html": "<strong>Good snowboard!<\/strong>",
+    //     "vendor": "Burton",
+    //     "product_type": "Snowboard",
+    //     "created_at": "2017-09-22T14:48:54-04:00",
+    //     "handle": "burton-custom-freestyle-151",
+    //     "updated_at": "2017-09-22T14:48:55-04:00",
+    //     "published_at": "2017-09-22T14:48:54-04:00",
+    //     "template_suffix": null,
+    //     "published_scope": "global",
+    //     "tags": "",
+    //     "variants": [
+    //       {
+    //         "id": 1070325225,
+    //         "product_id": 1071559755,
+    //         "title": "First",
+    //         "price": "10.00",
+    //         "sku": "123",
+    //         "position": 1,
+    //         "grams": 0,
+    //         "inventory_policy": "deny",
+    //         "compare_at_price": null,
+    //         "fulfillment_service": "manual",
+    //         "inventory_management": null,
+    //         "option1": "First",
+    //         "option2": null,
+    //         "option3": null,
+    //         "created_at": "2017-09-22T14:48:54-04:00",
+    //         "updated_at": "2017-09-22T14:48:54-04:00",
+    //         "taxable": true,
+    //         "barcode": null,
+    //         "image_id": null,
+    //         "inventory_quantity": 1,
+    //         "weight": 0.0,
+    //         "weight_unit": "lb",
+    //         "old_inventory_quantity": 1,
+    //         "requires_shipping": true
+    //       },
+    //       {
+    //         "id": 1070325226,
+    //         "product_id": 1071559755,
+    //         "title": "Second",
+    //         "price": "20.00",
+    //         "sku": "123",
+    //         "position": 2,
+    //         "grams": 0,
+    //         "inventory_policy": "deny",
+    //         "compare_at_price": null,
+    //         "fulfillment_service": "manual",
+    //         "inventory_management": null,
+    //         "option1": "Second",
+    //         "option2": null,
+    //         "option3": null,
+    //         "created_at": "2017-09-22T14:48:54-04:00",
+    //         "updated_at": "2017-09-22T14:48:54-04:00",
+    //         "taxable": true,
+    //         "barcode": null,
+    //         "image_id": null,
+    //         "inventory_quantity": 1,
+    //         "weight": 0.0,
+    //         "weight_unit": "lb",
+    //         "old_inventory_quantity": 1,
+    //         "requires_shipping": true
+    //       }
+    //     ],
+    //     "options": [
+    //       {
+    //         "id": 1022828915,
+    //         "product_id": 1071559755,
+    //         "name": "Title",
+    //         "position": 1,
+    //         "values": [
+    //           "First",
+    //           "Second"
+    //         ]
+    //       }
+    //     ],
+    //     "images": [
+    //     ],
+    //     "image": null
+    //   }
+    // }
+
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil providentcupiditate nisi aliquid odio nemo. Aspernatur eligendi ipsa perspiciatis ratione tempore voluptatibus molestiae commodi, assumenda laudantium fugiat sunt libero mollitia!
+
+      {/* <div className="admin_navbar">
+        <div className="adminLeft">
+          <i className="fas fa-bars" onClick={sidebarShowHandler}></i>
+        </div>
+        <div className="adminCenter"></div>
+        <div className="adminRight"></div>
+        <div className={showSidebar ? "adminSidebarOpen" : "adminSidebarClose"}>
+          <div className="adminsidebarTop">
+            <div className="adminBrand">
+              <h4>
+                <i className="fab fa-accusoft"></i> Accusoft
+              </h4>
+            </div>
+            <div className="closeButton">
+              <i className="fas fa-times" onClick={sidebarShowHandler}></i>
+            </div>
+          </div>
+          <div className="adminMenu">
+            <ul>
+              <li onClick={sidebarShowHandler}>
+                <Link to="/admin/dashboard">
+                  <i className="fas fa-columns"></i> Dashboard
+                </Link>
+              </li>
+              <li onClick={sidebarShowHandler}>
+                <Link to="/admin/products">
+                  <i className="fas fa-tshirt"></i> Products
+                </Link>
+              </li>
+              <li onClick={sidebarShowHandler}>
+                <Link to="/admin/products/List">
+                  <i className="fas fa-tshirt"></i> Products List
+                </Link>
+              </li>
+              <li onClick={sidebarShowHandler}>
+                <Link to="/admin/category">
+                  <i className="fas fa-boxes"></i> Category
+                </Link>
+              </li>
+              <li onClick={sidebarShowHandler}>
+                <Link to="/admin/users">
+                  <i className="fas fa-users"></i> Users
+                </Link>
+              </li>
+              <li onClick={sidebarShowHandler}>
+                <Link to="dashboard">
+                  <i className="fas fa-shopping-bag"></i> Orders
+                </Link>
+              </li>
+              <li onClick={sidebarShowHandler}>
+                <Link to="dashboard">
+                  <i className="fas fa-chart-bar"></i> Analytics
+                </Link>
+              </li>
+              <li onClick={sidebarShowHandler}>
+                <Link to="dashboard">
+                  <i className="fas fa-comment-alt"></i> chats
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="logoutMenu">
+            <ul>
+              <li onClick={sidebarShowHandler}>
+                <Link to="dashboard">
+                  <i className="fas fa-sign-out-alt"></i> Logout
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> */}
+
+
+      /* i {
+  cursor: pointer;
+}
+.admin_navbar {
+ 
+  background-color: #2f2f70;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.adminLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 30%;
+  height: 70px;
+}
+.adminLeft i {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.adminCenter {
+  height: 70px;
+  flex: 30%;
+}
+.adminRight {
+  height: 70px;
+  flex: 40%;
+}
+.adminSidebarOpen {
+  width: 275px;
+  height: 100vh;
+  background-color: #2f2f70;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width ease 0.3s;
+}
+.adminBrand {
+  flex: 80%;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.closeButton i {
+  margin-left: 10px;
+  font-size: 25px;
+}
+.adminSidebarClose {
+  display: none;
+}
+.adminMenu {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+.adminMenu i {
+  margin-right: 10px;
+}
+.adminMenu ul {
+  width: 100%;
+}
+.adminMenu ul li {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  transition: 0.3s;
+}
+.adminMenu ul li:hover {
+  background-color: #080f3a;
+}
+.adminMenu ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 37px;
+}
+
+.closeButton i {
+  margin-right: 20px;
+}
+.adminsidebarTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.logoutMenu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoutMenu ul {
+  width: 100%;
+}
+.logoutMenu ul li {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  transition: 0.3s;
+}
+.logoutMenu ul li:hover {
+  background-color: #080f3a;
+}
+.logoutMenu ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 60px;
+}
+
+@media (max-width: 800px) {
+  .admin_navbar {
+    height: auto;
+    flex-direction: column;
+  }
+} */
+
+
+
+import React, { useEffect, useState } from "react";
+import "./User.css";
+import { useSelector, useDispatch } from "react-redux";
+import { getAllUsers, createUser } from "../../../Redux/Actions/user.action";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import UserCreate from "./UserCreate";
+import UserList from "./UserList";
+
+const User = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getAllUsers());
+  }, [dispatch]);
+
+  const { users } = useSelector((state) => state.getAllUser);
+
+  return (
+    <div className="userComponent">
+      <ToastContainer />
+      <UserCreate />
+      <UserList />
+    </div>
+  );
+};
+
+export default User;
+
+
+
+mongodb+srv://pavithran:<password>@cluster0.ioifn.mongodb.net/test
+
+
+import React, { useEffect, useState } from "react";
+import "./Login.css";
+import { loginUser } from "../../Redux/Actions/auth.action";
+import { useSelector, useDispatch } from "react-redux";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
+import { authenticate, isAuth } from "../../helper";
+import { useHistory } from "react-router-dom";
+
+const Login = () => {
+  const dispatch = useDispatch();
+
+  const history = useHistory();
+
+  const [userData, setUserData] = useState({
+    email: "",
+    password: "",
+  });
+
+  const userInputChangeHandler = (e) => {
+    const { name, value } = e.target;
+
+    setUserData((prevState) => {
+      return {
+        ...prevState,
+        [name]: value,
+      };
+    });
+  };
+
+  // const loginFormHandler = (e) => {
+  //   e.preventDefault();
+  //   dispatch(loginUser(userData));
+  // };
+
+  // const { message, error, token } = useSelector((state) => state.login);
+
+  // useEffect(() => {
+  //   toast.success(message);
+  //   toast.error(error);
+  // }, [message, error]);
+
+  // console.log(token);
+
+  const loginFormHandler = (e) => {
+    e.preventDefault();
+
+    axios
+      .post("http://localhost:5000/user/login", {
+        email: userData.email,
+        password: userData.password,
+      })
+      .then((response) => {
+        console.log("User logged In", response.data.user);
+        authenticate(response, () => {
+          setUserData({ email: "", password: "", buttonText: "submit" });
+
+          isAuth() && isAuth().role === "admin"
+            ? history.push("/admin")
+            : history.push("/home");
+          // toast.dark(`Welcome, ${response.data.user.name}`);
+        });
+      })
+      .catch((error) => {
+        console.log(error.response.data);
+        // setUserData({ ...formData, buttonText: "submit" });
+        toast.error(error.response.data.error);
+      });
+  };
+
+  return (
+    <div className="loginContainer">
+      <ToastContainer />
+      <div className="formConatiner">
+        <div className="formLeftConatiner">
+          <div className="formLeftWelcome">
+            <h2>Welcome To Accusoft</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              quo eius nulla harum laboriosam quis a recusandae cupiditate
+              option.
+            </p>
+            <button type="submit">Create Account</button>
+          </div>
+        </div>
+        <div className="formRightConatiner">
+          <h2>SignIn To Accusoft</h2>
+
+          <div className="socialMedia">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-github"></i>
+          </div>
+
+          <form>
+            <input
+              type="text"
+              placeholder="Enter Email"
+              name="email"
+              value={userData.email}
+              onChange={userInputChangeHandler}
+            />
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="password"
+              value={userData.password}
+              onChange={userInputChangeHandler}
+            />
+            <button type="submit" onClick={loginFormHandler}>
+              submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Login;
+
+
+
+
+
+import {
+  CREATE_COUPON_REQUESTS,
+  CREATE_COUPON_SUCCESS,
+  CREATE_COUPON_FAIL,
+  LIST_COUPON_REQUESTS,
+  LIST_COUPON_SUCCESS,
+  LIST_COUPON_FAIL,
+  DELETE_COUPON_REQUESTS,
+  DELETE_COUPON_SUCCESS,
+  DELETE_COUPON_FAIL,
+} from "../Constants/couponConstant";
+import axios from "axios";
+
+export const createCoupon = (authToken, name, discount, expiry) => async (
+  dispatch
+) => {
+  try {
+    dispatch({ type: CREATE_COUPON_REQUESTS });
+
+    const { data } = await axios.post(
+      `http://localhost:5000/coupon/create`,
+      {
+        name: name,
+        discount: discount,
+        expiry: expiry,
+      },
+      {
+        headers: {
+          authorization: `Bearer ${authToken}`,
+        },
+      }
+    );
+
+    dispatch({
+      type: CREATE_COUPON_SUCCESS,
+      payload: data,
+    });
+  } catch (error) {
+    dispatch({
+      type: CREATE_COUPON_FAIL,
+      payload: error.response && error.response.data,
+    });
+  }
+};
+
+
+const mongoose = require("mongoose");
+const orderSchema = new mongoose.Schema(
+  {
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true,
+      ref: "User",
+    },
+    orderItems: [
+      {
+        name: { type: String, required: true },
+        quantity: { type: Number, required: true },
+        image: { type: String, required: true },
+        price: { type: Number, required: true },
+        product: {
+          type: mongoose.Schema.Types.ObjectId,
+          required: true,
+          ref: "Product",
+        },
+      },
+    ],
+    shippingAddress: {
+      address: { type: String, required: true },
+      city: { type: String, required: true },
+      postalCode: { type: String, required: true },
+      country: { type: String, required: true },
+    },
+    paymentMethod: {
+      type: String,
+      required: true,
+    },
+    paymentResult: {
+      id: { type: String },
+      status: { type: String },
+      updateTime: { type: String },
+      emailAddress: { type: String },
+    },
+    taxPrice: {
+      type: Number,
+      required: true,
+      default: 0.0,
+    },
+    shippingPrice: {
+      type: Number,
+      required: true,
+      default: 0.0,
+    },
+    totalPrice: {
+      type: Number,
+      required: true,
+      default: 0.0,
+    },
+    isPaid: {
+      type: Boolean,
+      required: true,
+      default: false,
+    },
+    paidAt: {
+      type: Date,
+    },
+    isDelivered: {
+      type: Boolean,
+      required: true,
+      default: false,
+    },
+    deliveredAt: {
+      type: Date,
+    },
+  },
+  {
+    timestamps: true,
+  }
+);
+
+module.exports = mongoose.model("Order", orderSchema);

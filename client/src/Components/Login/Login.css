@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.loginContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(212, 212, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formConatiner {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(77, 51, 128, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formLeftConatiner {
+  height: 100%;
+  flex: 40%;
+  background: url("https://i.pinimg.com/736x/d3/7b/c7/d37bc772fcd7b61862b7bf3b8cc3f1d7.jpg");
+}
+.formRightConatiner {
+  height: 100%;
+  flex: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formRightConatiner h2 {
+  font-size: 35px;
+  color: rgb(54, 54, 54);
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+form {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formRightConatiner form input {
+  width: 70%;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #1f1f50;
+  outline: none;
+  /* border-radius: 5px; */
+  margin-top: 20px;
+}
+.formRightConatiner form button {
+  width: 40%;
+  padding: 15px;
+  margin-top: 40px;
+  border: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  background: #1f1f50;
+  cursor: pointer;
+}
+.socialMedia {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.socialMedia i {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  font-size: 25px;
+}
+.formLeftWelcome {
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f50f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.formLeftWelcome h2 {
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 40px;
+}
+.formLeftWelcome p {
+  color: rgba(255, 255, 255, 0.856);
+  text-align: center;
+  margin: 30px;
+  text-align: center;
+}
+.formLeftWelcome button {
+  width: 50%;
+  padding: 11px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.registerMove a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .formLeftWelcome h2 {
+    text-align: center;
+  }
+  .formLeftWelcome p {
+    display: none;
+  }
+  .formLeftWelcome button {
+    display: none;
+  }
+  .formConatiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .formLeftConatiner {
+    flex: 5%;
+    border-radius: 2px;
+    width: 100%;
+  }
+  .formRightConatiner form input {
+    width: 100%;
+  }
+  .formRightConatiner form button {
+    width: 80%;
+  }
+  .formLeftWelcome h2 {
+    font-size: 30px;
+  }
+  .formRightConatiner {
+    flex: 95%;
+  }
+}

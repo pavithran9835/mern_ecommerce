@@ -1,0 +1,75 @@
+.HomeContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.categoryContainer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+.categoryBox {
+  width: 260px;
+  height: 350px;
+  margin: 20px;
+  cursor: pointer;
+}
+.categoryBox img {
+  width: 280px;
+  height: 350px;
+}
+.newArrivalContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Containertitle h3 {
+  font-size: 35px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.newArrivalRow {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.newArrivalProduct {
+  width: 260px;
+  height: 350px;
+  cursor: pointer;
+}
+.newArrivalProductImg {
+  width: 260px;
+  height: 280px;
+}
+.newArrivalProductImg img {
+  width: 250px;
+  height: 280px;
+}
+.newArrivalProduct {
+  width: 300px;
+  height: 390px;
+  margin-top: 40px;
+  border-radius: 2px;
+}
+.newArrivalProduct img {
+  width: 100%;
+  height: 300px;
+}

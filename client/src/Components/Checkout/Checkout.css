@@ -1,0 +1,125 @@
+.checkoutContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.checkoutContainerLeft {
+  flex: 70%;
+  height: 100vh;
+}
+
+.checkoutOrder {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+.checkoutOrder thead tr {
+  width: 100%;
+}
+.checkoutOrder thead tr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(29, 29, 29);
+  text-align: center;
+  text-transform: uppercase;
+}
+.checkoutOrder tbody tr td {
+  font-size: 16px;
+  color: rgb(29, 29, 29);
+  text-align: center;
+  padding: 20px;
+}
+.checkoutOrder td,
+.checkoutOrder th {
+  padding: 8px;
+}
+
+.checkoutOrder tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.checkoutOrder tr:hover {
+  background-color: #ddd;
+}
+.checkoutContainerRight {
+  flex: 30%;
+  height: 100vh;
+  padding: 20px;
+}
+.checkoutContainerRight h3,
+p {
+  margin-top: 10px;
+}
+.checkoutButton {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkoutButton button {
+  width: 40%;
+  padding: 11px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.checkoutAddress {
+  width: 100%;
+  height: 60%;
+  padding: 30px;
+}
+.reactQuill {
+  width: 90%;
+  height: 150px;
+}
+.adressBtn {
+  width: 30%;
+  padding: 11px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 60px;
+}
+.couponcodeform {
+  width: 85%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.couponCodeForm {
+  width: 100%;
+}
+.couponCodeForm h3 {
+  text-align: left !important;
+  margin-top: 10px;
+}
+.couponCodeForm input {
+  width: 90%;
+  padding: 15px;
+  border: none;
+  border-bottom: 2px solid #1f1f50;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.couponCodeForm button {
+  width: 150px;
+  padding: 12px;
+  margin-top: 30px;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  background: #e7e7e7;
+  cursor: pointer;
+}
